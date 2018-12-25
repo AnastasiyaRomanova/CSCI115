@@ -1,0 +1,85 @@
+html, body, h1,h2,h3,p,li{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#F1F3F1;
+}
+	
+#wrapper {
+	width: 80%;
+	min-width: 800px;
+	max-width:1200px;
+	
+}
+header{ 
+	background-image: url("images/art.jpg");
+	height: 175px;
+    background-repeat: no-repeat;
+	
+
+}
+
+
+header a{ 
+	font-size: 0.80em;
+	
+}
+header a:hover {color: #444B4B;
+}
+header a:visited{color: #444B4B;
+} 
+
+header h1{
+	padding-left:200px; 
+	font-size:80px;
+	padding-top: 30px;
+	color: #FFFFFF;
+}
+.floater {
+	float:right;
+	padding: 15px;
+	margin-left:100px; 
+	
+	border: 4px #444B4B;
+
+} 
+
+nav{
+	
+	width:200px;
+	border: 5px #444B4B;
+	float: left; 
+	min-height:400px;
+	background-color:#F1F3F1; 
+	
+}
+nav ul{
+	 margin: 0 0 0 32px;
+    height: 20px;
+    list-style-image: url('images/brush.png');
+}
+nav a {
+	color: black; 
+	text-decoration:none;
+}
+nav a:visited{ 
+	color: #C99440;
+} 
+main{
+	padding:10px;
+	
+	border:10px;
+	margin-left:255px;
+	background-color:#F5F1CF;
+}
+
+footer{ 
+	text-align: center; 
+     margin-left:255px;
+	
+	background-color:#F5F1CF; 
+	
+	clear:both;
+	
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<title>Learning by Example </title> 
+	<meta charset="utf-8"> 
+ 
+<style>
+* {
+   box-sizing: border-box;
+}
+.pic {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px #111;  
+}
+ /*SHRINK*/
+ .shrink img {
+  height: 400px;
+  width: 400px;
+  transition: all 1s ease;
+}
+.shrink img:hover {
+  width: 300px;
+  height: 300px;
+}
+</style>
+
+</head>	
+<body> 
+<h1>Welcome</h1> 
+ 
+<div class="shrink pic">
+  <img src="http://moorec.people.cofc.edu/manwalk.jpg" alt="a person standing in a ">
+</div>
+ 
+<p>What the image is doing. <br> 
+
+With the code presented the programmer has made the default picture 300px by 300px, and had the overflow hidden making the content invisible.<br> 
+The default image is an image that is 300px by 300px, however there is hidden conent in the image.<br>
+With the shrink class what it does is when the user hovers over the picture it makes the picture shrink.<br> 
+The picture then transitions with with the user at 1 second and shows the full image. 
+</p>
+ 
+</body> 
+</html>

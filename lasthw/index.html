@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Music Stylesheet </title>
+<meta charset="utf-8">
+<link rel="stylesheet"  href="style.css">
+</head>
+<body> 
+<h1> Music Survey</h1> 
+
+<p>Name:<input type="text" name= "first" id="name"></p>
+
+<p>Email:<input type="email" name= "email" id="email" ></p>
+
+<form method="post" action="select">      
+        <fieldset>      
+                <legend>Select Your Favorite Types of Music:</legend>      
+                <input type="checkbox" name="music" value="Pop">Pop<br>      
+                <input type="checkbox" name="music" value="Classical">Classical<br>      
+                <input type="checkbox" name="music" value="Rock">Rock<br> 
+				<input type="checkbox" name="music" value="Folk">Folk<br>
+				<input type="checkbox" name="music" value="Rap">Rap<br>  
+				<input type="checkbox" name="music" value="Other">Other<br>  
+                <br>      
+                     
+        </fieldset>      
+</form>
+  
+<form method="post" action="select">
+<fieldset>
+	<legend>Select how often you purchase Music CDs:</legend>
+	<input type="radio" name="time" value="Weekly "> Male<br>
+	<input type="radio" name="time" value="A few CDs each year"> Female<br>
+	<input type="radio" name="time" value="monthly">Monthly<br> 
+	<input type="radio" name="time" value="Never purchase">Never purchase
+ </fieldset> 
+</form>
+
+<p> Select The Locations in where you listen to music:</p>
+<br>
+<select name="place" id= "place" size= "3"> 
+	<option>In The Car</option>
+	<option>At home</option>
+	<option>On the bus</option>
+	<option>Anywhere(MP3) Player</option>
+	
+</select>
+
+<br>
+<p>What Role Does Music Have In Your Life?<br>
+<textarea name= "comment" id= "comment" rows="4" cols="50" >
+</textarea> 
+</p>
+
+<p> <input type="submit" value= "submit"> 
+
+<input type= "reset" value= "erase" > 
+</p> 
+<footer> 
+
+ <p> Anastasiya Romanova</p> 
+ <a href="romanovaaa@g.cofc.edu">romanovaaa@g.cofc.edu</a>
+ </footer>
+</body>
+</html>
+ 

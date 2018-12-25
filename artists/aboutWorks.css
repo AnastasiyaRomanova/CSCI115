@@ -1,0 +1,40 @@
+header{ 
+	background-image: url("images/art.jpg");
+	height: 175px;
+    background-repeat: no-repeat;
+	 
+	
+}
+
+header a{ 
+	font-size: 0.80em;
+	
+}
+header a:hover {color: #444B4B;
+}
+header a:visited{color: #444B4B;
+} 
+body{
+	background-color:#F1F3F1;
+}
+.column{
+	background-color:#E3DE80;
+    float: left;
+    width: 30.33%;
+    padding: 10px;
+    height: 350px; 
+}
+ a{
+	text-align:right; 
+	
+	font-family: Georgia, serif;
+}
+footer{ 
+	text-align: center; 
+     margin-left:150px;
+	
+	background-color:#F5F1CF; 
+	
+	clear:both;
+	
+}

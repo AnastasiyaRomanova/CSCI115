@@ -1,0 +1,79 @@
+
+ header{
+	background-image:url(images/brick-wall-dark.png);
+}
+h1{
+	width:420px;
+	float:left;
+}
+h2{
+	background-image: url(images/icon.png);
+	background-repeat:no-repeat;
+	padding-left:30px;
+
+}
+body{
+	background-color:#E7FDBB;
+	
+	color:#51B46E;
+	font-family:verdana,arial,sans-serif;
+}
+
+#wrapper {
+	width: 980px;
+	background-color:#A6DAE5;
+	margin-left:auto;
+	margin-right: auto;
+	box-shadow:5px 5px 4px blue;
+}
+#logo{
+	width:420px;
+    float:left;
+}
+nav{
+	width:490px;
+    float:right;
+}
+#heropic{
+	clear:both;
+	background-image:url(images/images.jpg);
+}
+#leftcol{
+	min-height:450px;
+	padding:10px;
+	margin:10px;
+	width:440px;
+	float:left;
+	
+}
+#rightcol{
+	min-height:450px;
+	padding: 10px;
+	margin: 10px;
+	width:440px;
+	float:right;
+	
+	
+	
+}
+	
+}
+.info{
+	background-color:#cc0000;
+	color:white;
+	font-weight:bold;
+	width:100px;
+	margin:auto;
+	padding:6px;
+	border-radius:8px;
+	text-align:center;
+}
+footer{
+	
+	background-color:#F1F5DE;
+	font-weight: bold;
+	color:#467C6D;
+	text-align: center;
+	font-size: .60em;
+	text-align: center;
+}
